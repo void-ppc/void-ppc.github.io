@@ -1,0 +1,53 @@
+---
+layout: default
+title: Void Linux for PowerPC/Power ISA (unofficial)
+---
+
+<div class="row">
+	<div class="col-md-3">
+		<div id="davoid">
+			<img class="bg" alt="void logo" src="/assets/img/void_bg.png" class="img-responsive">
+		</div>
+	</div>
+	<div class="col-md-9">
+		<h2>Void Linux for PowerPC/Power ISA (unofficial)</h2>
+		<p>Void Linux ppc is a staging fork of the <a href="https://voidlinux.org">Void Linux</a> distribution intended for the PowerPC/Power architecture. It supports 64-bit and 32-bit hardware, with 64-bit supporting both little and big endian modes, while aiming to be legacy-free, using the ELFv2 ABI for both. It supports both glibc and musl.</p>
+		<p>We have an explicit goal of upstreaming as many changes as possible - the project therefore retains a fairly small number of patches, most changes are merged into Void itself or upstream software projects as soon as they're ready.</p>
+		<p>Please see the <a href="https://docs.voidlinux-ppc.org">documentation</a> for up-to-date status information, installation instructions, FAQ and other resources.</p>
+		<h3>
+		<a href="irc://irc.freenode.net/#voidlinux-ppc" title="Void-ppc on IRC"><i class="fa fa-comments fa-lg"></i></a>
+	</div>
+</div>
+<hr>
+<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+			<h3>Hardware support</h3>
+			<p>Most distributions now support only 64-bit little endian hardware. Void-ppc aims to change this and work on a wide variety of hardware.</p>
+			<p>The little endian builds require POWER8 or newer, but the big endian flavors start with 970/G5 (64-bit, AltiVec is required), while the 32-bit builds are completely generic.</p>
+		</div>
+		<div class="col-md-4">
+			<h3>C library support</h3>
+			<p>Just like Void itself, both glibc and musl are supported, resulting in 6 different flavors of the system.</p>
+			<p>As an oddity, Void-ppc uses the modern ELFv2 ABI on both little endian and big endian 64-bit builds. This is a requirement with the musl libc, but there is currently no other distribution using ELFv2 for glibc as well.</p>
+		</div>
+		<div class="col-md-4">
+			<h3>Package support</h3>
+			<p>Void-ppc has a goal of as complete repository coverage as possible for all targets, not leaving anything behind.</p>
+			<p>While this is currently WiP (but 64-bit LE is nearing completeness), the ultimate goal is first class support. For instance, we are the only distro to ship a working Qt5 WebEngine (Chromium based) component.</p>
+		</div>
+	</div>
+	<hr>
+	<div class="page-header">
+		<h2>Recent news <a href="/atom.xml" title="Subscribe to the news"><i class="fa fa-rss fa-lg"></i></a></h2>
+	</div>
+	<div class="row">
+			{% for post in site.posts limit:2 %}
+			<div class="col-md-10">
+				<h4>{{ post.date | date: "%B %d, %Y" }}</h4>
+				<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+				{{ post.content }}
+			</div>
+			{% endfor %}
+	</div>
+</div>
