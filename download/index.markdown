@@ -86,11 +86,11 @@ currently does not work, so it's equivalent to the primary for the time being.
 
 ### Tier 1 Mirrors
 
-  * https://repo.voidlinux-ppc.org (USA: Chicago)
-  * https://mirrors.servercentral.com/void-ppc/ (USA: Chicago)
+  * <https://repo.voidlinux-ppc.org> (USA: Chicago)
+  * <https://mirrors.servercentral.com/void-ppc> (USA: Chicago)
 
 ### Tier 2 Mirrors
 
-  * http://ftp.lysator.liu.se/pub/void-ppc (EU: Sweden)
-  * http://lysator7eknrfl47rlyxvgeamrv7ucefgrrlhk7rouv3sna25asetwid.onion/pub/void-ppc (EU: Sweden)
-  * https://ppc.exqa.de
+  * <http://ftp.lysator.liu.se/pub/void-ppc> (EU: Sweden)
+  * <http://lysator7eknrfl47rlyxvgeamrv7ucefgrrlhk7rouv3sna25asetwid.onion/pub/void-ppc> (EU: Sweden)
+  * <https://ppc.exqa.de>
