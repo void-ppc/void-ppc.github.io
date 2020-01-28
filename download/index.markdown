@@ -93,4 +93,4 @@ currently does not work, so it's equivalent to the primary for the time being.
 
   * <http://ftp.lysator.liu.se/pub/void-ppc> (EU: Sweden)
   * <http://lysator7eknrfl47rlyxvgeamrv7ucefgrrlhk7rouv3sna25asetwid.onion/pub/void-ppc> (EU: Sweden)
-  * <https://ppc.exqa.de>
+  * <https://ppc.exqa.de> (EU: Germany)
