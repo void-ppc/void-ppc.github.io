@@ -7,10 +7,14 @@ title: Void Linux for PowerPC/Power ISA - Downloads
 
 ## Download installable base live images
 
-***PLEASE NOTE: To install the desktop environment, DON'T choose "install from
-network" choose the local install. VERY IMPORTANT!***
+***PLEASE NOTE: If you choose Network as the installation source, a desktop
+environment will not be installed regardless of what you are booting!***
 
-There are installable live images for all 6 flavors. You need to choose the kind
+It is, however, recommended to use network installation when you can, as only
+then you can get latest packages out of the box without having to update the
+system.
+
+There are installable live images for all 6 archs. You need to choose the kind
 you want, and whether you want a desktop environment out of box or not.
 
 All **live images** and **rootfs tarballs** are available at:
@@ -48,17 +52,13 @@ To start the installer just execute the *void-installer* utility with enough
 permissions (i.e *sudo*). The installer has paths for OpenPOWER, Apple and
 CHRP systems.
 
-Additional live images with *flavors* (an additional Desktop Environment with
-autologin) are also available:
+In addition to the plain command line image, there is also a graphical flavor
+with the Xfce desktop environment. Other graphical flavor images are currently
+not planned, as it's a lot of effort to make and test them, but you can still
+install a desktop of your choice yourself.
 
-- Enlightenment
-- Cinnamon
-- LXDE
-- LXQT
-- MATE
-- XFCE
-
-These images need at least 256 or 512 MB of RAM in order to work correctly.
+It is recommended that you have enough RAM (at least 256 or 512MB) available
+when using the graphical images.
 
 ## Verifying file integrity
 
