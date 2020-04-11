@@ -7,6 +7,9 @@ The old batch was starting to show its age, so there are now some fresh ISO
 images. There are also some significant improvements in them. They are marked
 `20200411`. Of course, fresh rootfs tarballs are also included.
 
+As usual, they are available in `ppc64le` (POWER8+), `ppc64` (G5+) and `ppc`
+(generic) variants, with `glibc` and `musl` both supported.
+
 Let's see:
 
 ### Serial console support
