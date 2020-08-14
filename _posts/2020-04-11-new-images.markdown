@@ -75,10 +75,10 @@ desktop environment of your choice in the final system, of course.
 
 ### Other minor stuff
 
-The graphical flavor iamges for 32-bit PowerPC now ship Xorg drivers for
+The graphical flavor images for 32-bit PowerPC now ship Xorg drivers for
 Rage 128 (`r128`) and Rage Pro (`mach64`). This could help some G3s and
-so on, but do keep in mind that it won't likely start up out of box, as the
-drivers always needed manual configuration (Xorg modelines, etc.)
+so on, but do keep in mind that it won't likely start up out of the box,
+as the drivers always needed manual configuration (Xorg modelines, etc.)
 
 There have also been assorted fixes in the installer, such as simpler and
 more robust code that takes care of setting up the NVRAM stuff to make Void
