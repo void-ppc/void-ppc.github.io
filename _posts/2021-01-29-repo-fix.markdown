@@ -1,0 +1,31 @@
+---
+title: What to do if a recent update removed your package repo access
+layout: post
+---
+
+If you updated on the 28th January or early 29th January, you probably got
+an update to `xbps 0.59.1_3`. After doing this update, you might have noticed
+that repo syncing no longer works, so you will not be getting any more updates.
+
+This is because of an accident that happened when rebasing `void-ppc`'s
+`void-packages` fork changes. It is fixed in `xbps 0.59.1_4` uploaded as
+of 29th January 14:30 CET, but it will not fix things for those who updated
+during the narrow window of breakage.
+
+In order to unbreak your updates manually, go to `/usr/share/xbps.d` and
+edit your `00-repository-main.conf`. The contents of the file should be just
+a URL. Change it from something like:
+
+```
+https://auto.voidlinux-ppc.org/...
+```
+
+to
+
+```
+repository=https://auto.voidlinux-ppc.org/...
+```
+
+That is, you just have to prepend `repository=` to the URL. After that, you
+can sync again, update your `xbps` again, and then you should be able to
+install updates normally again.
