@@ -3,12 +3,15 @@ title: IRC migration
 layout: post
 ---
 
-After the recent events regarding freenode IRC ownership, the upstream Void
-project is moving IRC networks and so are we.
+After the recent events regarding freenode IRC ownership, we are moving IRC
+networks.
 
-We have settled for the OFTC network (https://oftc.net). Since OFTC is a long
-time host for the Debian project without any incidents and the Alpine Linux
-project has also migrated there, we consider this a stable new home for the
-distribution.
+We have settled for the OFTC network (https://oftc.net), with the same name
+as before (i.e. `#voidlinux-ppc`). Since OFTC is a long time host for the
+Debian project without any incidents and the Alpine Linux project has also
+migrated there, we consider this a stable new home for the distribution.
+
+The upstream Void project has not yet reached a consensus, but you should
+be expecting some news on that front very soon as well.
 
 See you there!
