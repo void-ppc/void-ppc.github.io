@@ -16,8 +16,10 @@ tentative date for their phasing out being January 2023.
 
 In the meantime, if there is interest, the ports will be looking for a
 new maintainer. The new maintainer will have to provide the package
-builds/repos as well as fix issues that come up. I will still be here
-to coordinate upstreaming of patches if needed.
+builds as well as fix issues that come up. I will still be here
+to coordinate upstreaming of patches if needed. Hosting the resulting
+packages on the official mirrors can likewise be coordinated depending
+on the circumstances.
 
 In case no maintainer is found, the repositories will be shut down
 without a replacement.
