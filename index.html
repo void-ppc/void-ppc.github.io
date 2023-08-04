@@ -11,33 +11,12 @@ title: Void Linux for PowerPC/Power ISA (unofficial)
 	</div>
 	<div class="col-md-9">
 		<h2>Void Linux for PowerPC/Power ISA (unofficial)</h2>
-		<p>Void Linux ppc is a staging fork of the <a href="https://voidlinux.org">Void Linux</a> distribution intended for the PowerPC/Power architecture. It supports 64-bit and 32-bit hardware, with 64-bit supporting both little and big endian modes, while aiming to be legacy-free, using the ELFv2 ABI for both.</p>
-		<p>We have an explicit goal of upstreaming as many changes as possible - the project therefore retains a fairly small number of patches, most changes are merged into Void itself or upstream software projects as soon as they're ready.</p>
-		<p>Please see the <a href="https://docs.voidlinux-ppc.org">documentation</a> for up-to-date status information, installation instructions, FAQ and other resources.</p>
-		<h3>
-		<a href="irc://irc.oftc.net/#voidlinux-ppc" title="Void-ppc on IRC"><i class="fa fa-comments fa-lg"></i></a>
+		<p>Void Linux ppc was a staging fork of the <a href="https://voidlinux.org">Void Linux</a> distribution intended for the PowerPC/Power architecture. At this point the project is unmaintained.</p>
+		<p>The author has moved on to maintain <a href="https://chimera-linux.org">Chimera Linux</a>, which also supports the POWER architecture.</p>
 	</div>
 </div>
 <hr>
 <div class="container">
-	<div class="row">
-		<div class="col-md-4">
-			<h3>Hardware support</h3>
-			<p>Most distributions now support only 64-bit little endian hardware. Void-ppc aims to change this and work on a wide variety of hardware.</p>
-			<p>The little endian builds require POWER8 or newer, but the big endian flavor starts with 970/G5 (64-bit, AltiVec is required), while the 32-bit builds are completely generic.</p>
-		</div>
-		<div class="col-md-4">
-			<h3>C library support</h3>
-			<p>The big endian variants are provided with glibc. Little endian versions come in both glibc and musl flavors.</p>
-			<p>Void-ppc uses a variant of the modern ELFv2 ABI (loosened not to impose the POWER8/VSX requirements of the specification) on 64-bit glibc, as the only distribution known to do so.</p>
-		</div>
-		<div class="col-md-4">
-			<h3>Package support</h3>
-			<p>Void-ppc has a goal of as complete repository coverage as possible for all targets, not leaving anything behind.</p>
-			<p>Currently, our package coverage varies between 88% and 96% of unique packages depending on target (with 64-bit little endian having the best support) and we even ship some software others don't (e.g. Qt5 WebEngine).</p>
-		</div>
-	</div>
-	<hr>
 	<div class="page-header">
 		<h2>Recent news <a href="/atom.xml" title="Subscribe to the news"><i class="fa fa-rss fa-lg"></i></a></h2>
 	</div>
